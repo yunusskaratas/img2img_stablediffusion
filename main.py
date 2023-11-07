@@ -1,7 +1,5 @@
-from fastapi import FastAPI, APIRouter
+from fastapi import FastAPI, APIRouter,UploadFile
 import uvicorn
-
-from fastapi import FastAPI, UploadFile
 from fastapi.responses import FileResponse
 from pathlib import Path
 
